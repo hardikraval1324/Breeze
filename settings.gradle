@@ -1,2 +1,2 @@
-rootProject.name = "Breeze"
+rootProject.name = "login_signup_page"
 include ':app'
