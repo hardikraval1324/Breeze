@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "711724526571",
+    "firebase_url": "https://brezzez-aa640-default-rtdb.firebaseio.com",
+    "project_id": "brezzez-aa640",
+    "storage_bucket": "brezzez-aa640.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:711724526571:android:ee0bbf76d643c6bddb07ae",
+        "android_client_info": {
+          "package_name": "com.example.breeze"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "711724526571-jk321epokou6uefrh7d94rh1mq95tl8v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD6w0vRWT6SJZ8ypDWMKqw0X53A4LyZbjw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "711724526571-jk321epokou6uefrh7d94rh1mq95tl8v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:711724526571:android:99bea81dd9f9e24adb07ae",
+        "android_client_info": {
+          "package_name": "com.example.login_signup_page"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "711724526571-jk321epokou6uefrh7d94rh1mq95tl8v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD6w0vRWT6SJZ8ypDWMKqw0X53A4LyZbjw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "711724526571-jk321epokou6uefrh7d94rh1mq95tl8v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
