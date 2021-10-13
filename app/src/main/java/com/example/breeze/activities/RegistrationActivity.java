@@ -1,5 +1,6 @@
 package com.example.breeze.activities;
 
+
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
@@ -108,6 +109,7 @@ public class RegistrationActivity extends AppCompatActivity {
             }
         });
     }
+
     private void closeKeyboard()
     {
         View view = this.getCurrentFocus();
@@ -122,4 +124,5 @@ public class RegistrationActivity extends AppCompatActivity {
                             view.getWindowToken(), 0);
         }
     }
+
 }
