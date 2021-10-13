@@ -2,6 +2,7 @@
     <!-- Base application theme. -->
     <style name="Theme.Breeze" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         <!-- Primary brand color. -->
+        <item name="android:windowTranslucentStatus">true</item>
         <item name="colorPrimary">#F4404F</item>
         <item name="colorPrimaryVariant">#ED4B6B</item>
         <item name="colorOnPrimary">@color/black</item>

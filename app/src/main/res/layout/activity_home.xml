@@ -11,6 +11,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity"
+    android:background="@drawable/gradient"
     tools:ignore="HardcodedText">
 
 
@@ -25,6 +26,7 @@
             android:layout_marginTop="350dp"
             android:fontFamily="sans-serif-smallcaps"
             android:gravity="center"
+            android:textColor="@color/black"
             android:text="Welcome To Breeze "
             android:textSize="34sp"
             android:textStyle="bold" />
@@ -39,6 +41,8 @@
         android:layout_height="match_parent"
         android:layout_gravity="start"
         app:menu="@menu/navigation_menu"
+        android:background="@color/white"
+        app:itemShapeFillColor="#3A3939"
         app:headerLayout="@layout/headerfile"/>
 
 </androidx.drawerlayout.widget.DrawerLayout>
