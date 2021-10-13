@@ -11,7 +11,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity"
-    android:background="@color/white"
+    android:background="@drawable/gradient"
     tools:ignore="HardcodedText">
 
 
@@ -41,7 +41,8 @@
         android:layout_height="match_parent"
         android:layout_gravity="start"
         app:menu="@menu/navigation_menu"
-        android:textColor="@color/black"
+        android:background="@color/white"
+        app:itemShapeFillColor="#3A3939"
         app:headerLayout="@layout/headerfile"/>
 
 </androidx.drawerlayout.widget.DrawerLayout>

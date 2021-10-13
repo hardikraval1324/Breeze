@@ -43,13 +43,14 @@
 
             <TextView
                 android:id="@+id/textView3"
-                android:layout_width="397dp"
+                android:layout_width="match_parent"
                 android:layout_height="69dp"
                 android:fontFamily="@font/alice"
                 android:gravity="center"
                 android:text="Login"
+                android:background="@drawable/edithome_background"
                 android:textColor="#534648"
-                android:textSize="30sp"
+                android:textSize="40sp"
                 android:textStyle="bold"
                 app:layout_constraintBottom_toTopOf="@+id/progressbar"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -67,13 +68,13 @@
 
             <TextView
                 android:id="@+id/textView6"
-                android:layout_width="397dp"
+                android:layout_width="match_parent"
                 android:layout_height="69dp"
                 android:fontFamily="@font/alice"
                 android:gravity="center"
                 android:text="OR"
                 android:textColor="#534648"
-                android:textSize="20sp"
+                android:textSize="26sp"
                 android:textStyle="bold"
                 app:layout_constraintBottom_toTopOf="@+id/linearLayout"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -92,17 +93,18 @@
             android:orientation="horizontal">
 
             <TextView
-                android:layout_width="394dp"
-                android:layout_height="59dp"
+                android:layout_width="180dp"
+                android:layout_height="65dp"
                 android:fontFamily="@font/alice"
                 android:gravity="center"
                 android:text="Register"
+                android:background="@drawable/edithome_background"
                 android:textColor="#534648"
-                android:textSize="30sp"
+                android:textSize="40sp"
                 android:textStyle="bold"
                 app:layout_constraintBottom_toTopOf="@+id/progressbar"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.411"
+                app:layout_constraintHorizontal_bias="0.211"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/textView6"
                 app:layout_constraintVertical_bias="0.103" />
