@@ -1,6 +1,7 @@
 package com.example.breeze;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.arch.core.executor.TaskExecutor;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -8,6 +9,8 @@ import android.os.Handler;
 import android.view.View;
 import android.widget.ProgressBar;
 import android.widget.Toast;
+import android.widget.Toolbar;
+
 import com.example.breeze.activities.HomeActivity;
 import com.example.breeze.activities.LoginActivity;
 import com.example.breeze.activities.RegistrationActivity;
@@ -24,7 +27,6 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         auth = FirebaseAuth.getInstance();
-
         progressBar = findViewById(R.id.progressbar);
         progressBar.setVisibility(View.GONE);
 
@@ -32,15 +34,17 @@ public class MainActivity extends AppCompatActivity {
             progressBar.setVisibility(View.VISIBLE);
             Toast.makeText(this, "Please wait you are already logged in!", Toast.LENGTH_SHORT).show();
 
-
             Handler handler = new Handler();
             handler.postDelayed(new Runnable() {
                 public void run() {
                     startActivity(new Intent(MainActivity.this, HomeActivity.class));
                 }
-            }, 3000);
+            }, 2000);
         }
     }
+
+
+
     public void login(View view) {
         startActivity(new Intent(MainActivity.this, LoginActivity.class));
     }
